@@ -5,7 +5,7 @@ import helper = require('./helper')
 import {create} from './logger'
 var log = create('plugin')
 
-var IGNORED_PACKAGES = ['karma-cli', 'karma-runner.github.com']
+var IGNORED_PACKAGES = ['karma-cli', 'karma-runner.github.com', 'karma-ts']
 
 export function resolve(plugins, emitter) {
   var modules = []
